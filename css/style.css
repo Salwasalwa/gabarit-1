@@ -6,24 +6,21 @@ body {}
 
 header {
     width: 100%;
-    height: 10%;
     background-color: rgb(11, 10, 11);
 }
 
-header img {
+header figure {
     float: left;
     margin-left: 9%;
-    padding-top: 1em;
-    padding-bottom: 1em;
-    margin-right: 0.5em;
+    margin-top: 0.5em;
+    margin-right: 0.1em;
 }
 
 nav {
-    display: inline-block;
-    padding-top: 1.5em;
-    padding-bottom: 1.5em;
-    margin-right: : 0.25em;
 
+    display: inline-block;
+    padding-top: 0.5em;
+    padding-bottom: 0.5em;
 }
 
 li {
@@ -31,27 +28,26 @@ li {
     display: inline;
     padding-left: 2em;
     text-align: center;
-    padding-bottom: 1.5em;
-    padding-top: 1.5em;
+
 }
 
 main {
     margin-left: 10%;
     margin-right: 10%;
-    height: 70%;
 }
 
-#sectionun {
+#banner {
     width: 100%;
+    height: 300px;
     padding-bottom: 1em;
     margin-bottom: 1em;
     border-bottom: 1px solid rgb(200, 200, 193);
     margin: 1em;
 }
 
-#sectionun img {
-    width: 60%;
-    height: 250px;
+#banner img {
+    width: 70%;
+    height: 300px;
     float: left;
     margin-right: 1em;
     border-radius: 10px;
@@ -59,35 +55,39 @@ main {
 
 #article1 {
     display: inline;
-    width: 40%;
-    height: 200px;
-    font-size: 15px;
+    width: 30%;
+    height: 300px;
+    font-size: 13px;
     margin-bottom: 2em;
-    margin: 1em;
+    margin: 2em;
 
 }
 
 #button1 {
     background-color: blue;
     color: white;
+    width: 10em;
     padding: 1em;
     border-radius: 10px;
 }
 
-#sectiondeux {
+#baseline {
     border: 1px solid rgb(142, 136, 136);
     background-color: rgb(214, 214, 195);
     text-align: center;
     font-size: 15px;
     border-radius: 10px;
+    margin-left: 1em;
 }
 
-#sectiontrois article {
+#articles article {
     float: left;
     width: 30%;
     padding-left: 1.5em;
 }
-
+button {
+    font-size: 12px;
+}
 a {
     text-decoration: none;
     color: grey;
@@ -96,7 +96,6 @@ a {
 footer {
     float: left;
     width: 80%;
-    height: 5%;
     margin: 2em;
     margin-left: 10%;
     font-size: 11px;
