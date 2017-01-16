@@ -14,7 +14,6 @@ header figure {
 }
 
 nav {
-
     display: inline-block;
     padding-top: 0.5em;
     padding-bottom: 0.5em;
@@ -24,8 +23,6 @@ nav {
 nav ul {
     margin-top: 1em;
     margin-bottom: 1em;
-    margin: 0;
-    padding: 0;
 }
 
 li {
@@ -33,11 +30,11 @@ li {
     display: inline;
     padding-left: 2em;
     text-align: center;
-
 }
 
 nav li a {
     margin-bottom: 1em;
+    padding-top: 1em;
 }
 
 main {
@@ -51,7 +48,6 @@ main {
     padding-bottom: 1em;
     margin-bottom: 1em;
     border-bottom: 1px solid rgb(200, 200, 193);
-    margin: 1em;
 }
 
 #banner img {
@@ -64,11 +60,9 @@ main {
 #presentation {
     display: inline;
     width: 30%;
-    height: 300px;
     font-size: 13px;
     margin-bottom: 2em;
     margin: 2em;
-
 }
 
 #action {
